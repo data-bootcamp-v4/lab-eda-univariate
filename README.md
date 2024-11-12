@@ -1,65 +1,58 @@
-## Lab - EDA Univariate Analysis: Diving into Amazon UK Product Insights
+# EDA Univariate Analysis: Insights into Amazon UK Product Listings
 
-**Objective**: Explore the product listing dynamics on Amazon UK to extract actionable business insights. By understanding the distribution, central tendencies, and relationships of various product attributes, businesses can make more informed decisions on product positioning, pricing strategies, and inventory management.
+## Objective:
+The purpose of this analysis is to explore the distribution and characteristics of product listings on Amazon UK. By analyzing various attributes, such as product categories, pricing, and ratings, we aim to extract actionable business insights that can inform product positioning, pricing strategies, and inventory management.
 
-**Dataset**: This lab utilizes the [Amazon UK product dataset](https://www.kaggle.com/datasets/asaniczka/uk-optimal-product-price-prediction/)
-which provides information on product categories, brands, prices, ratings, and more from from Amazon UK. You'll need to download it to start working with it.
-
-
----
-
-### Part 1: Understanding Product Categories
-
-**Business Question**: What are the most popular product categories on Amazon UK, and how do they compare in terms of listing frequency?
-
-1. **Frequency Tables**:
-    - Generate a frequency table for the product `category`.
-    - Which are the top 5 most listed product categories?
-
-2. **Visualizations**:
-    - Display the distribution of products across different categories using a bar chart. *If you face problems understanding the chart, do it for a subset of top categories.*
-    - For a subset of top categories, visualize their proportions using a pie chart. Does any category dominate the listings?
+## Dataset:
+This analysis utilizes the **Amazon UK product dataset**, which contains information on product categories, brands, prices, ratings, and more. The dataset provides a comprehensive view of product listings on Amazon UK and is available for download on [Kaggle](https://www.kaggle.com/datasets/asaniczka/uk-optimal-product-price-prediction/). **Note:** The dataset is not included in the repository due to its large size (over 400MB).
 
 ---
 
-### Part 2: Delving into Product Pricing
+## Part 1: Understanding Product Categories
+### Business Question: 
+What are the most popular product categories on Amazon UK, and how do they compare in terms of listing frequency?
 
-**Business Question**: How are products priced on Amazon UK, and are there specific price points or ranges that are more common?
+The product listings on Amazon UK are heavily dominated by the **"Sports & Outdoors"** category, which accounts for a staggering 836,000 listings, more than 40 times the number of any other category. The remaining categories—**Beauty**, **Handmade Clothes**, **Bath & Body**, and **Birthday Gifts**—each contribute around 20,000 listings. This shows a much smaller but relatively equal distribution among them.
 
-1. **Measures of Centrality**:
-    - Calculate the mean, median, and mode for the `price` of products.
-    - What's the average price point of products listed? How does this compare with the most common price point (mode)?
-
-2. **Measures of Dispersion**:
-    - Determine the variance, standard deviation, range, and interquartile range for product `price`.
-    - How varied are the product prices? Are there any indicators of a significant spread in prices?
-
-3. **Visualizations**:
-    - Is there a specific price range where most products fall? Plot a histogram to visualize the distribution of product prices. *If its hard to read these diagrams, think why this is, and explain how it could be solved.*.
-    - Are there products that are priced significantly higher than the rest? Use a box plot to showcase the spread and potential outliers in product pricing. 
+**Key Insight:** 
+Approximately **9 out of 10 products** listed on Amazon UK belong to the **Sports & Outdoors** category.
 
 ---
 
-### Part 3: Unpacking Product Ratings
+## Part 2: Delving into Product Pricing
+### Business Question: 
+How are products priced on Amazon UK, and are there specific price points or ranges that are more common?
 
-**Business Question**: How do customers rate products on Amazon UK, and are there any patterns or tendencies in the ratings?
+- The **average price** of products listed on Amazon UK is **£89.24**, which is much higher than the **most common price** of **£9.99**. 
+- The **most frequent price** of £9.99 indicates that many products are priced lower, but the high average price suggests that a few high-priced items are significantly raising the overall mean.
+- The **median price** is £19.09, meaning that half of the products are priced at or below this point.
 
-1. **Measures of Centrality**:
-    - Calculate the mean, median, and mode for the `rating` of products.
-    - How do customers generally rate products? Is there a common trend?
+**Key Insights:**
+- The **prices range from £0.0 to £100,000.0**, with some products having prices that might be errors or inconsistencies, possibly involving multiple currencies. 
+- There are **products priced significantly higher** than the majority, as illustrated by the **log price** distribution, where the majority of products fall within a price range of **£7 to £54** (log values 2 to 4).
 
-2. **Measures of Dispersion**:
-    - Determine the variance, standard deviation, and interquartile range for product `rating`.
-    - Are the ratings consistent, or is there a wide variation in customer feedback?
-
-3. **Shape of the Distribution**:
-    - Calculate the skewness and kurtosis for the `rating` column. 
-    - Are the ratings normally distributed, or do they lean towards higher or lower values?
-
-4. **Visualizations**:
-    - Plot a histogram to visualize the distribution of product ratings. Is there a specific rating that is more common?
+**Visualizations:**
+- The **box plot** showcases the spread of product prices, highlighting outliers on both ends of the price spectrum.
 
 ---
 
-**Submission**: Submit a Jupyter Notebook which contains code and a business-centric report summarizing your findings. 
+## Part 3: Unpacking Product Ratings
+### Business Question: 
+How do customers rate products on Amazon UK, and are there any patterns or tendencies in the ratings?
 
+- To ensure accuracy, I filtered out products with no reviews, as these were skewed by ratings of **0 stars**.
+- The **average rating** for products is **4.3 out of 5** stars, with the **most common rating** being **4.5 stars**.
+
+**Key Insights:**
+- The majority of ratings fall between **4.1 and 4.6**, indicating that most customers are satisfied with their purchases.
+- **Skewness**: The ratings distribution has a **negative skew** (-1.77), meaning that most ratings are concentrated at the higher end of the scale.
+- **Kurtosis**: The **kurtosis** value of **6.18** suggests that the distribution is **highly leptokurtic**, meaning there is a sharp peak around the most frequent ratings, with relatively few lower ratings.
+
+**Overall Customer Sentiment:**
+- There is a general trend of **high customer satisfaction**, with most ratings clustering near the maximum of **5 stars**.
+- The **low variance** and **standard deviation** further support this, indicating minimal variation in the ratings.
+
+---
+
+## In Conclusion...
+The product ratings in this dataset reveal a strong trend of **high customer satisfaction**, with an average rating of **4.3 stars** and the most frequent rating being **4.5 stars**. The distribution of ratings is **skewed to the right**, indicating that customers are generally very satisfied, with relatively few low ratings. The **high kurtosis** suggests that the ratings are concentrated around the higher end of the scale, showing that customers typically give products positive reviews. Overall, businesses can infer that the products in this dataset enjoy broad approval, with only occasional dissatisfaction.
