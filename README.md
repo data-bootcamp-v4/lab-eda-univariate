@@ -21,7 +21,7 @@ which provides information on product categories, brands, prices, ratings, and m
     - For a subset of top categories, visualize their proportions using a pie chart. Does any category dominate the listings?
 
 ---
-
+i
 ### Part 2: Delving into Product Pricing
 
 **Business Question**: How are products priced on Amazon UK, and are there specific price points or ranges that are more common?
