@@ -10,7 +10,7 @@ which provides information on product categories, brands, prices, ratings, and m
 
 ### Part 1: Understanding Product Categories
 
-**Business Question**: What are the most popular product categories on Amazon UK, and how do they compare in terms of listing frequency?
+©
 
 1. **Frequency Tables**:
     - Generate a frequency table for the product `category`.
