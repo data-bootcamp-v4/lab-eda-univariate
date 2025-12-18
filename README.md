@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# Lab EDA Univariate
+=======
 ## Lab - EDA Univariate Analysis: Diving into Amazon UK Product Insights
 
 **Objective**: Explore the product listing dynamics on Amazon UK to extract actionable business insights. By understanding the distribution, central tendencies, and relationships of various product attributes, businesses can make more informed decisions on product positioning, pricing strategies, and inventory management.
@@ -63,3 +66,4 @@ which provides information on product categories, brands, prices, ratings, and m
 
 **Submission**: Submit a Jupyter Notebook which contains code and a business-centric report summarizing your findings. 
 
+>>>>>>> ba8cbc7cc70021d5a276e4a6e9ae38c621b5c718
