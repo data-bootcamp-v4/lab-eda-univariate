@@ -6,7 +6,7 @@
 which provides information on product categories, brands, prices, ratings, and more from from Amazon UK. You'll need to download it to start working with it.
 
 
----
+--- 
 
 ### Part 1: Understanding Product Categories
 
@@ -61,5 +61,5 @@ which provides information on product categories, brands, prices, ratings, and m
 
 ---
 
-**Submission**: Submit a Jupyter Notebook which contains code and a business-centric report summarizing your findings. 
+**Submission**: Submit a Jupyter Notebook which contains code and a business-centric report summarizing your findings
 
