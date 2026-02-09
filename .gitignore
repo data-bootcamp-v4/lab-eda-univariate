@@ -1,0 +1,4 @@
+data/
+.DS_Store
+__pycache__/
+amz_uk_price_prediction_dataset.csv
