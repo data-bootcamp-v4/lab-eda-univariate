@@ -58,8 +58,3 @@ which provides information on product categories, brands, prices, ratings, and m
 
 4. **Visualizations**:
     - Plot a histogram to visualize the distribution of product ratings. Is there a specific rating that is more common?
-
----
-
-**Submission**: Submit a Jupyter Notebook which contains code and a business-centric report summarizing your findings. 
-
