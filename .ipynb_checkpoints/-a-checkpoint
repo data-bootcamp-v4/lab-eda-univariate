@@ -1,0 +1,23 @@
+[33mcommit 9e1fb0f41735f1600c3e5815a0074bc5d19d1f45[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Anne Leschallier de Lisle <anne.leschallier@gmail.com>
+Date:   Mon Mar 16 16:13:33 2026 +0100
+
+    Solved lab
+
+A	.gitignore
+
+[33mcommit ba8cbc7cc70021d5a276e4a6e9ae38c621b5c718[m
+Author: Ironhack Education Team <admin.education@ironhack.com>
+Date:   Tue Mar 19 14:21:18 2024 +0100
+
+    Rename lab_eda_univariate.md to README.md
+
+R100	lab_eda_univariate.md	README.md
+
+[33mcommit 780a554756901539fbd5c5a2a8d046f10b2c6ddb[m
+Author: debironhack <103188679+debironhack@users.noreply.github.com>
+Date:   Fri Oct 27 11:12:04 2023 +0200
+
+    Add files via upload
+
+A	lab_eda_univariate.md
