@@ -43,10 +43,10 @@ which provides information on product categories, brands, prices, ratings, and m
 ### Part 3: Unpacking Product Ratings
 
 **Business Question**: How do customers rate products on Amazon UK, and are there any patterns or tendencies in the ratings?
-
+an, and mode for the `rating` of products.
+    - How do customers generall
 1. **Measures of Centrality**:
-    - Calculate the mean, median, and mode for the `rating` of products.
-    - How do customers generally rate products? Is there a common trend?
+    - Calculate the mean, mediy rate products? Is there a common trend?
 
 2. **Measures of Dispersion**:
     - Determine the variance, standard deviation, and interquartile range for product `rating`.
