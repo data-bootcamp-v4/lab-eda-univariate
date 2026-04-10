@@ -26,6 +26,7 @@ which provides information on product categories, brands, prices, ratings, and m
 
 **Business Question**: How are products priced on Amazon UK, and are there specific price points or ranges that are more common?
 
+
 1. **Measures of Centrality**:
     - Calculate the mean, median, and mode for the `price` of products.
     - What's the average price point of products listed? How does this compare with the most common price point (mode)?
