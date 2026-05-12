@@ -36,7 +36,7 @@ which provides information on product categories, brands, prices, ratings, and m
 
 3. **Visualizations**:
     - Is there a specific price range where most products fall? Plot a histogram to visualize the distribution of product prices. *If its hard to read these diagrams, think why this is, and explain how it could be solved.*.
-    - Are there products that are priced significantly higher than the rest? Use a box plot to showcase the spread and potential outliers in product pricing. 
+   
 
 ---
 
