@@ -3,7 +3,7 @@
 **Objective**: Explore the product listing dynamics on Amazon UK to extract actionable business insights. By understanding the distribution, central tendencies, and relationships of various product attributes, businesses can make more informed decisions on product positioning, pricing strategies, and inventory management.
 
 **Dataset**: This lab utilizes the [Amazon UK product dataset](https://www.kaggle.com/datasets/asaniczka/uk-optimal-product-price-prediction/)
-which provides information on product categories, brands, prices, ratings, and more from from Amazon UK. You'll need to download it to start working with it.
+which provides information on product categories, brands, prices, ratings, and more from Amazon UK. Download `amz_uk_price_prediction_dataset.csv` and place it beside the notebook; the 459 MB source file is intentionally excluded from Git.
 
 
 ---
@@ -62,4 +62,3 @@ which provides information on product categories, brands, prices, ratings, and m
 ---
 
 **Submission**: Submit a Jupyter Notebook which contains code and a business-centric report summarizing your findings. 
-
