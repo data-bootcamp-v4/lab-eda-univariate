@@ -1,0 +1,9 @@
+Business report
+
+This analysis covers 2,443,651 product listings, looking at how listings are distributed across categories, how products are priced, and how they are rated. Overall, the marketplace is dominated by low-priced products, has a small number of extremely expensive listings, and has a large share of products with no customer reviews.
+
+Category distribution. Listings are concentrated in a small number of categories. Sports & Outdoors] is the most listed category, accounting for 91.6% of all listings, followed by Beauty, Handmade Clothing, Shoes & Accessories, Bath & Body, Birthday Gifts. Therefore, Sports' share is well ahead of the others: this makes it the dominant category.
+
+Pricing. Most products are inexpensive: the median price is 19.09, the most common price is 9.99, and half of all products fall between 9.99 and 45.99. However, the average price of 89.24 is more than four times the median, and the standard deviation (345.61) is nearly four times the mean, because a small number of very expensive listings, up to 100,000, pull the figures upward. Products priced above roughly 100 are statistical outliers. For business decisions, the median is a more reliable picture of a typical price than the average, and the extreme values (including listings priced at 0 or exactly 100,000) should be checked for data errors before being used.
+
+Ratings and recommendations. More than half of all products have a rating of 0, which indicates they have no reviews rather than a poor rating; as a result, both the median and mode rating are 0. Among products that do have reviews, ratings cluster around 4 and 5 stars, show that customer satisfaction is generally high. 
