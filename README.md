@@ -63,3 +63,4 @@ which provides information on product categories, brands, prices, ratings, and m
 
 **Submission**: Submit a Jupyter Notebook which contains code and a business-centric report summarizing your findings. 
 
+Listo
